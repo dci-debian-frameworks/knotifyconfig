@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5kjs-dev (>= 4.96.0), libkf5auth-dev (>= 4.96.0),
  libkf5codecs-dev (>= 4.96.0), libkf5config-dev (>= 4.96.0),
  libkf5sonnet-dev (>= 4.96.0), libkf5globalaccel-dev (>= 4.96.0),
- libkf5jobwidgets-dev (>= 4.96.0), libphonon4qt5-dev, libphonon4qt5experimental-dev,
+ libkf5jobwidgets-dev (>= 4.96.0), libphonon5qt5-dev, libphonon4qt5experimental-dev,
  libkf5attica-dev (>= 4.96.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
@@ -22,14 +22,14 @@ Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
 Package: libkf5notifyconfig-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5notifyconfig4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5notifyconfig5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for knotifyconfig
  This framework offers classes to represent the configuration for an
  event.
  .
  Contains development files for knotifyconfig.
  
-Package: libkf5notifyconfig4
+Package: libkf5notifyconfig5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -38,12 +38,12 @@ Description: Configuration system for KNotify.
  This framework offers classes to represent the configuration for an
  event.
 
-Package: libkf5notifyconfig4-dbg
+Package: libkf5notifyconfig5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5notifyconfig4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5notifyconfig5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for knotifyconfig
  This framework offers classes to represent the configuration for an
  event.
