@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5NotifyConfig.so.4 libkf5notifyconfig4 #MINVER#
+libKF5NotifyConfig.so.5 libkf5notifyconfig5 #MINVER#
  _ZN19KNotifyConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN19KNotifyConfigWidget11qt_metacastEPKc@Base 4.96.0
  _ZN19KNotifyConfigWidget14setApplicationERK7QStringS2_S2_@Base 4.96.0
