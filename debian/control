@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5kjs-dev (>= 4.97.0), libkf5auth-dev (>= 4.97.0),
  libkf5codecs-dev (>= 4.97.0), libkf5config-dev (>= 4.97.0),
  libkf5sonnet-dev (>= 4.97.0), libkf5globalaccel-dev (>= 4.97.0),
- libkf5jobwidgets-dev (>= 4.97.0), libphonon5qt5-dev, libphonon4qt5experimental-dev,
+ libkf5jobwidgets-dev (>= 4.97.0), libphonon4qt5-dev, libphonon4qt5experimental-dev,
  libkf5attica-dev (>= 4.97.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
