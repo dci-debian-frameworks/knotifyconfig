@@ -38,6 +38,19 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
 
+Package: libkf5notifyconfig-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5notifyconfig5 (= ${binary:Version}), ${misc:Depends},
+ libkf5i18n-dev,
+ kf5-kio-dev,
+ qtbase5-dev
+Description: development files for knotifyconfig
+ This framework offers classes to represent the configuration for an
+ event.
+ .
+ Contains development files for knotifyconfig.
+
 Package: libkf5notifyconfig5
 Section: libdevel
 Architecture: any
