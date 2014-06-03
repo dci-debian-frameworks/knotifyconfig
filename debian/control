@@ -62,6 +62,14 @@ Description: Configuration system for KNotify.
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
+Package: libkf5notifyconfig5-data
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Configuration system for KNotify.
+ This framework offers classes to represent the configuration for an
+ event.
+
 Package: libkf5notifyconfig5-dbg
 Priority: extra
 Section: debug
