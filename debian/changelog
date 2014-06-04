@@ -11,6 +11,10 @@ knotifyconfig (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Fix data package name in control
   * Set data package multiarch:foreign
+  * Fix data install file to use correct path
+  * Make libkf5notifyconfig5 depend on data package
+  * Remove incorrect and pointless libdevel section from libkf5notifyconfig5
+    and libkf5notifyconfig5-data
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:42:39 +0100
 
