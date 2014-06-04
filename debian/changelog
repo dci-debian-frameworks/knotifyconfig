@@ -8,6 +8,10 @@ knotifyconfig (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix .pri install path
   * Add -data to hold local files 
 
+  [ Harald Sitter ]
+  * Fix data package name in control
+  * Set data package multiarch:foreign
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:42:39 +0100
 
 knotifyconfig (4.99.0-0ubuntu1) trusty; urgency=medium
