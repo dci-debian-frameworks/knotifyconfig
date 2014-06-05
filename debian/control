@@ -60,7 +60,6 @@ Description: Configuration system for KNotify.
  This framework offers classes to represent the configuration for an
  event.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5notifyconfig-data
 Architecture: all
