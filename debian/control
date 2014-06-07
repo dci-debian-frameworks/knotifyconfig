@@ -41,7 +41,7 @@ Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
 Package: libkf5notifyconfig-dev
 Section: libdevel
 Architecture: any
-Depends: kf5-kio-dev,
+Depends: kio-dev,
          libkf5i18n-dev,
          libkf5notifyconfig5 (= ${binary:Version}),
          qtbase5-dev,
