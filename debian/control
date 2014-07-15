@@ -56,12 +56,13 @@ Description: development files for knotifyconfig
 
 Package: libkf5notifyconfig5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5notifyconfig-data (= ${source:Version})
+Multi-Arch: same
+Depends: libkf5notifyconfig-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Configuration system for KNotify.
  This framework offers classes to represent the configuration for an
  event.
-Multi-Arch: same
 
 Package: libkf5notifyconfig-data
 Architecture: all
