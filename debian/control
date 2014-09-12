@@ -33,7 +33,7 @@ Build-Depends: cmake,
                libkf5xmlgui-dev (>= 5.2.0),
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
