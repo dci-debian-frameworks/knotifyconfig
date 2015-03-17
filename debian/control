@@ -35,7 +35,7 @@ Build-Depends: cmake,
                libphonon4qt5experimental-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/knotifyconfig.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/knotifyconfig.git
