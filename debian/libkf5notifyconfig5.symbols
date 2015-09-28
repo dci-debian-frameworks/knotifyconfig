@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0+git20150928.0029+15.10 amd64 i386
 libKF5NotifyConfig.so.5 libkf5notifyconfig5 #MINVER#
  _ZN19KNotifyConfigWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN19KNotifyConfigWidget11qt_metacastEPKc@Base 4.96.0
@@ -8,6 +8,7 @@ libKF5NotifyConfig.so.5 libkf5notifyconfig5 #MINVER#
  _ZN19KNotifyConfigWidget17slotEventSelectedEP20KNotifyConfigElement@Base 4.96.0
  _ZN19KNotifyConfigWidget4saveEv@Base 4.96.0
  _ZN19KNotifyConfigWidget7changedEb@Base 4.96.0
+ _ZN19KNotifyConfigWidget8defaultsEv@Base 5.14.0+git20150928.0029+15.10
  _ZN19KNotifyConfigWidget9configureEP7QWidgetRK7QString@Base 4.96.0
  _ZN19KNotifyConfigWidgetC1EP7QWidget@Base 4.96.0
  _ZN19KNotifyConfigWidgetC2EP7QWidget@Base 4.96.0
