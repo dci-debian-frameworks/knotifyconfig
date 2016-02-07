@@ -58,15 +58,3 @@ Description: Configuration system for KNotify.
  event.
  .
  This package contains the data files.
-
-Package: libkf5notifyconfig5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5notifyconfig5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for knotifyconfig
- This framework offers classes to represent the configuration for an
- event.
- .
- Contains debug symbols for knotifyconfig.
