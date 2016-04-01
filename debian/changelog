@@ -1,6 +1,6 @@
-knotifyconfig (5.20.0-1~1.gbp79163e) UNRELEASED; urgency=medium
+knotifyconfig (5.20.0-1~2.gbp1d41ef) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @79163e01659deb9d384611389ad7afcd45d082bb **
+  ** SNAPSHOT build @1d41eff48a02314cfb85c289355fd7700a5610bf **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ knotifyconfig (5.20.0-1~1.gbp79163e) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:37:39 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:37:16 +0200
 
 knotifyconfig (5.19.0-1) experimental; urgency=medium
 
