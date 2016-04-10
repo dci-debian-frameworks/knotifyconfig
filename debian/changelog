@@ -1,6 +1,6 @@
-knotifyconfig (5.20.0-1~3.gbpde7db0) UNRELEASED; urgency=medium
+knotifyconfig (5.21.0-1~1.gbpf3ac7b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @de7db06ee9eabb2add2cf8c8786fb7d0fff1a617 **
+  ** SNAPSHOT build @f3ac7bda81c3c2f2822847146eeb96ad9c70d91a **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ knotifyconfig (5.20.0-1~3.gbpde7db0) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:37:33 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:37:23 +0200
 
 knotifyconfig (5.19.0-1) experimental; urgency=medium
 
