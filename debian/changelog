@@ -1,6 +1,6 @@
-knotifyconfig (5.21.0-1~1.gbpf3ac7b) UNRELEASED; urgency=medium
+knotifyconfig (5.22.0-1~1.gbpdb131c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f3ac7bda81c3c2f2822847146eeb96ad9c70d91a **
+  ** SNAPSHOT build @db131cac076c7192dae2d5d5e03632a9f4fef1ef **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ knotifyconfig (5.21.0-1~1.gbpf3ac7b) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +23,7 @@ knotifyconfig (5.21.0-1~1.gbpf3ac7b) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:37:23 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:37:10 +0200
 
 knotifyconfig (5.19.0-1) experimental; urgency=medium
 
