@@ -1,3 +1,11 @@
+knotifyconfig (5.24.0-1~1.gbp425dbe) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @425dbe9f24ae7c6c0bee7327c7cff561d60957a1 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 11:37:25 +0200
+
 knotifyconfig (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
