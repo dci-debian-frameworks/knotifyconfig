@@ -1,18 +1,13 @@
-knotifyconfig (5.25.0-1~2.gbpa47003) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a4700382a7c97e025a8adf70d5ccf0f5cd696232 **
+knotifyconfig (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @6572d299c68359f2ab39e4f2e12fa069297eda55 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:37:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:51:41 +0200
 
 knotifyconfig (5.23.0-1) unstable; urgency=medium
 
