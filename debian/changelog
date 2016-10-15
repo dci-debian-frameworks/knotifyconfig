@@ -1,10 +1,13 @@
-knotifyconfig (5.27.0-1~1.gbpe94717) UNRELEASED; urgency=medium
+knotifyconfig (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e94717989b94b3b8169b7ebeee157a0bf5069c6d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 11:37:53 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:06:49 +0200
 
 knotifyconfig (5.26.0-1) unstable; urgency=medium
 
