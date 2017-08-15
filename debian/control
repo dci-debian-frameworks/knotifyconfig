@@ -5,7 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                kio-dev (>= 5.26.0~),
                libkf5completion-dev (>= 5.37.0~),
                libkf5config-dev (>= 5.37.0~),
@@ -19,37 +21,14 @@ Build-Depends: cmake (>= 3.0~),
                libkf5xmlgui-dev (>= 5.37.0~),
                libphonon4qt5-dev (>= 4.6.60~),
                libphonon4qt5experimental-dev,
+               libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/knotifyconfig
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/knotifyconfig.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/knotifyconfig.git
-
-Package: libkf5notifyconfig-dev
-Section: libdevel
-Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5i18n-dev (>= 5.37.0~),
-         libkf5notifyconfig5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
-Description: development files for knotifyconfig
- This framework offers classes to represent the configuration for an
- event.
- .
- Contains development files for knotifyconfig.
-Breaks: libkf5kdelibs4support-dev (<< 5.37)
-
-Package: libkf5notifyconfig5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5notifyconfig-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Configuration system for KNotify.
- This framework offers classes to represent the configuration for an
- event.
 
 Package: libkf5notifyconfig-data
 Architecture: all
@@ -60,3 +39,39 @@ Description: Configuration system for KNotify.
  event.
  .
  This package contains the data files.
+
+Package: libkf5notifyconfig-dev
+Section: libdevel
+Architecture: any
+Depends: kio-dev (>= 5.26.0~),
+         libkf5i18n-dev (>= 5.37.0~),
+         libkf5notifyconfig5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+Recommends: libkf5notifyconfig-doc (= ${source:Version})
+Description: development files for knotifyconfig
+ This framework offers classes to represent the configuration for an
+ event.
+ .
+ Contains development files for knotifyconfig.
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
+
+Package: libkf5notifyconfig-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Configuration system for KNotify (documentation)
+ This framework offers classes to represent the configuration for an
+ event.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5notifyconfig5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5notifyconfig-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Configuration system for KNotify.
+ This framework offers classes to represent the configuration for an
+ event.
