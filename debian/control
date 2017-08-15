@@ -65,6 +65,7 @@ Description: Configuration system for KNotify (documentation)
  event.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5notifyconfig5
 Architecture: any
