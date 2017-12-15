@@ -53,7 +53,7 @@ Description: development files for knotifyconfig
  event.
  .
  Contains development files for knotifyconfig.
-Breaks: libkf5kdelibs4support-dev (<< 5.37)
+Breaks: libkf5kdelibs4support-dev (<< 5.41)
 
 Package: libkf5notifyconfig-doc
 Architecture: all
