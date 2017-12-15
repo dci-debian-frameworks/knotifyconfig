@@ -8,7 +8,6 @@ Build-Depends: cmake (>= 3.0~),
                doxygen,
                extra-cmake-modules (>= 5.41.0~),
                graphviz,
-               kio-dev (>= 5.26.0~),
                libkf5completion-dev (>= 5.41.0~),
                libkf5config-dev (>= 5.41.0~),
                libkf5configwidgets-dev (>= 5.41.0~),
@@ -43,9 +42,9 @@ Description: Configuration system for KNotify.
 Package: libkf5notifyconfig-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5i18n-dev (>= 5.41.0~),
+Depends: libkf5i18n-dev (>= 5.41.0~),
          libkf5notifyconfig5 (= ${binary:Version}),
+         likf5kio-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
 Recommends: libkf5notifyconfig-doc (= ${source:Version})
