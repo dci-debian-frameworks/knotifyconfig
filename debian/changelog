@@ -1,3 +1,11 @@
+knotifyconfig (5.41.0-2~) UNRELEASED; urgency=medium
+
+  * New revision
+  * Fix typo in -dev package depends.
+    Thanks to manuel for reporting (Closes: 885945)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 02 Jan 2018 14:43:35 -0300
+
 knotifyconfig (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
