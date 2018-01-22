@@ -1,3 +1,9 @@
+knotifyconfig (5.42.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.42.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 22 Jan 2018 16:35:10 -0300
+
 knotifyconfig (5.41.0-2) experimental; urgency=medium
 
   * New revision
