@@ -43,8 +43,8 @@ Package: libkf5notifyconfig-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5i18n-dev (>= 5.41.0~),
-         libkf5notifyconfig5 (= ${binary:Version}),
          libkf5kio-dev (>= 5.41.0~),
+         libkf5notifyconfig5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
 Recommends: libkf5notifyconfig-doc (= ${source:Version})
